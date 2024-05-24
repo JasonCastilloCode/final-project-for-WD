@@ -1,0 +1,79 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    height: 100%;
+}
+
+html{
+    height: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+  }
+
+.container {
+    height: 100%;
+    width: 100%;
+    max-width: 570px;
+    margin: 0 auto;
+    padding: 60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1f 80px;
+    grid-column-gap: 10px;
+}
+
+.form-submit {
+    outline: none;
+    border: 1px solid rgb(232, 232, 232);
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 36px;
+  }
+  .form-submit:focus {
+    box-shadow: 0 0 0 0.5px rgb(153, 153, 153);
+  }
+
+.cards{
+    display: flex;
+    margin: 20px 0;
+    width: 100%;
+}
+.card-info{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.tag-error{
+    width: 100%;
+    text-align: center;
+}
+.cards-activity{
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+.is-element-hidden {
+    display: none;
+  }
+  

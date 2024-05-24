@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css"> 
+  <title>Title</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Info about Dogs</h1>
+    <form action="/facts" id="form" class="form" method="POST">
+      <select name="type" class="form-select">
+        <option value="" data-display="Select">Amount of Info</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select> 
+      <button type="submit" class="form-submit">Submit</button>
+    </form>
+
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"> </script>
+  <script src = "/script.js"> </script>
+</body>
+</html>
