@@ -1,0 +1,1 @@
+It Suppose to Uses the uses the HTTP Status Dogs API. Depending on the range of 100 to 599 or 999 will appear a funny meme of a dog. this website uses Axios for HTTP requests, EJS for templating and follows a structured and organized file format.
